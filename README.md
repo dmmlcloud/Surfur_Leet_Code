@@ -9,6 +9,8 @@
   使用map进行hash映射，通过查询map中对应键的值来确定元素是否被访问过
 - [bytedance1_ans.cpp](https://github.com/yeyuezhishui/Surfur_Leet_Code/blob/master/bytedance1_ans.cpp)
   本题Leetcode提交Solution版
+- [bytedance1_2_ans.cpp](https://github.com/yeyuezhishui/Surfur_Leet_Code/blob/master/bytedance1_2_ans.cpp)
+  用字符串流将字符串进行分割（以'/'为单位），将子串放入数组中，没遇到'','.','..'则将子串存入结果数组中，遇到‘.‘跳过，遇到‘..’则从结果数组中pop一个元素
 ## 15. 3Sum
 - [bytedance2.cpp](https://github.com/yeyuezhishui/Surfur_Leet_Code/blob/master/bytedance2.cpp)
   先排序，再收尾各一个指针相向移动，注意去重
