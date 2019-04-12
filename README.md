@@ -25,7 +25,7 @@
   使用两个STL stack 一个用来存放栈元素，一个用来存放栈最小元素，注意理解问什么更新后的最小元素栈栈顶依然是当前最小元素
 ## 155. Add Two Numbers
 - [bytedance3_2_ans.cpp](https://github.com/dmmlcloud/Surfur_Leet_Code/blob/master/bytedance3_2_ans.cpp)
-  链表结构的两数相加，可转化成数组进行操作最后转化成链表，也可以在计算过程中创建结点，主要思路是创建辅助数组存储进位值
+  链表结构的两数相加，相加直到遍历完两个链表，某个链表遍历完后停止，主要思路是存储进位值
 ## 206. Reverse Linked List
 - [bytedance3.cpp](https://github.com/yeyuezhishui/Surfur_Leet_Code/blob/master/bytedance3.cpp)
   常规反转链表，三个指针完成
